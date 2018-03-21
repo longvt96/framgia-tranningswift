@@ -30,7 +30,8 @@ enum ASCIIControlCharacter: Character {
     case lineFeed = "\n"
     case carriageReturn = "\r"
 }
-
+var dir = ASCIIControlCharacter.tab
+dir.rawValue
 
 
 //Recursive Enum
