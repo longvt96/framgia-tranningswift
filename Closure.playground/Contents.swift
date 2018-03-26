@@ -7,7 +7,7 @@ import UIKit
 let sayhello = {() ->Void in
     print("Say hello!")
     }
-sayhello
+sayhello()
 
 // Closure co tham so va gt tra ve
 
